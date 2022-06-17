@@ -1,5 +1,6 @@
 import { Article } from '@/components/Article';
 import {
+  ArticlesDiv,
   ArticlesTitle,
   ArticlesTitleWrapper,
   ArticlesViewAll,
@@ -15,6 +16,7 @@ export const Articles = () => {
         <ArticlesTitle>Recent Articles</ArticlesTitle>
         <ArticlesViewAll>View All</ArticlesViewAll>
       </ArticlesTitleWrapper>
+      <ArticlesDiv />
       <ArticlesWrapper>
         {config.map(({ description, author, title, image }, index) => (
           <Article

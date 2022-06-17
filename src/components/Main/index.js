@@ -21,9 +21,7 @@ export const Main = () => {
         <MainAuthor>Milford Smith</MainAuthor>
         <MainDate>February 12, 2021</MainDate>
       </MainSection>
-      <div>
-        <MainInmage src={mainImage} alt="mainImage" />
-      </div>
+      <MainInmage src={mainImage} alt="mainImage" />
     </StyledMain>
   );
 };

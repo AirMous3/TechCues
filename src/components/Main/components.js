@@ -16,10 +16,10 @@ export const MainSection = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 100px;
+  padding-left: 100px;
 `;
 export const MainTitle = styled.h1`
-  color: ${({ theme }) => theme.colors.primary};
+  color: ${({ theme }) => theme.colors.secondary};
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
@@ -31,7 +31,7 @@ export const MainDescription = styled.div`
   font-size: 42px;
   line-height: 62px;
   letter-spacing: 1px;
-  color: ${({ theme }) => theme.colors.secondary};
+  color: ${({ theme }) => theme.colors.primary};
   max-width: 464px;
   margin-right: 100px;
   margin-bottom: 30px;
@@ -48,7 +48,6 @@ export const MainDate = styled.div`
   color: ${({ theme }) => theme.colors.whiteGray};
 `;
 export const MainInmage = styled.img`
-  height: 100%;
   z-index: 10;
 `;
 // export const MainRightArrows = styled.div`

@@ -10,8 +10,11 @@ export const ArticlesTitle = styled.div`
   color: ${({ theme }) => theme.colors.primary};
 `;
 export const ArticlesTitleWrapper = styled.div`
+  position: relative;
   display: flex;
   justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: 1px solid ${({ theme }) => theme.colors.border};
 `;
 export const ArticlesViewAll = styled.div`
   ::after {
@@ -22,4 +25,11 @@ export const ArticlesViewAll = styled.div`
 export const ArticlesWrapper = styled.div`
   display: flex;
   justify-content: space-between;
-`
+`;
+export const ArticlesDiv = styled.div`
+  position: absolute;
+  bottom: 422px;
+  width: 150px;
+  border-top: 5px solid ${({ theme }) => theme.colors.primary};
+  border-radius: 8px;
+`;
