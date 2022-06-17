@@ -1,5 +1,5 @@
 import logo from '@/assets/logo.png';
-import { Button } from '@/components/Button/components';
+import { Button } from '@/components/Button';
 
 import {
   CategoriesWrapper,

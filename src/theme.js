@@ -5,10 +5,10 @@ const font = 'sans-serif';
 // Color palette
 const black = '#000000';
 const white = '#ffffff';
-const error = '#c86464';
-const gray = '#8f93a3';
-const border = '#9c9fb0';
-const green = '#22c993';
+const border = '#EBEAF2';
+const whiteGray = '#868297';
+const primary = '#5C5CFF';
+const secondary = '#413e52';
 
 const boxShadows = [
     '6px 6px 16px rgba(17, 17, 49, 0.12)',
@@ -52,11 +52,11 @@ export const theme = {
         '20px', // 3
     ],
     colors: {
-        gray,
-        border,
-        green,
+        whiteGray,
+        primary,
+        secondary,
         black,
         white,
-        error,
+        border,
     },
 };
