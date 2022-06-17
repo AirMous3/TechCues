@@ -9,6 +9,7 @@ export const StyledMain = styled.main`
   border: 1px solid ${({ theme }) => theme.colors.border};
   box-shadow: 0px 24px 24px rgba(52, 52, 147, 0.32);
   border-radius: 8px;
+  margin-bottom: 120px;
 `;
 export const MainSection = styled.section`
   display: flex;

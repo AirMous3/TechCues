@@ -1,3 +1,4 @@
+import { Articles } from '@/components/Articles';
 import { Container } from '@/components/Container';
 import { Header } from '@/components/Header';
 import { Main } from '@/components/Main';
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <Container>
         <Main />
+        <Articles />
       </Container>
     </div>
   );
