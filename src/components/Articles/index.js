@@ -16,7 +16,7 @@ export const Articles = () => {
         <ArticlesTitle>Recent Articles</ArticlesTitle>
         <ArticlesViewAll>View All</ArticlesViewAll>
       </ArticlesTitleWrapper>
-      <ArticlesDiv />
+      {/*<ArticlesDiv />*/}
       <ArticlesWrapper>
         {config.map(({ description, author, title, image }, index) => (
           <Article

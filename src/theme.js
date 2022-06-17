@@ -9,6 +9,7 @@ const border = '#EBEAF2';
 const whiteGray = '#868297';
 const secondary = '#5C5CFF';
 const primary = '#413e52';
+const darkBlue = '#111131';
 
 const boxShadows = [
   '6px 6px 16px rgba(17, 17, 49, 0.12)',
@@ -59,5 +60,6 @@ export const theme = {
     black,
     white,
     border,
+    darkBlue
   },
 };
