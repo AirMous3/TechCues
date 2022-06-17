@@ -1,4 +1,3 @@
-import article1 from '@/assets/article1.png';
 import {
   ArticleAuthor,
   ArticleDescription,
@@ -8,15 +7,15 @@ import {
   ArticleWrapper,
 } from '@/components/Article/components';
 
-export const Article = () => {
+export const Article = ({ title, description, author, image }) => {
   return (
     <ArticleWrapper>
-      <ArticleImage src={article1} alt="article1" />
+      <ArticleImage src={image} alt="article1" />
 
       <ArticleDescriptionWrapper>
-        <ArticleTitle>Mobile Technology</ArticleTitle>
-        <ArticleAuthor>Adell Jacobi</ArticleAuthor>
-        <ArticleDescription>Best Technology Podcast Episodes of 2020</ArticleDescription>
+        <ArticleTitle>{title}</ArticleTitle>
+        <ArticleAuthor>{author}</ArticleAuthor>
+        <ArticleDescription>{description}</ArticleDescription>
       </ArticleDescriptionWrapper>
     </ArticleWrapper>
   );
