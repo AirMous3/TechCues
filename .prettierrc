@@ -4,6 +4,8 @@
   "printWidth": 90,
   "singleQuote": true,
   "bracketSpacing": true,
-  "arrowParens": "avoid",
-  "trailingComma": "all"
+  "trailingComma": "all",
+  "importOrder": ["^@/(.*)$", "^@server/(.*)$", "^@ui/(.*)$", "^[./]"],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
 }
