@@ -1,19 +1,37 @@
-import { HeaderWrapper } from './components';
+import logo from '@/assets/logo.png';
+import { Button } from '@/components/Button/components';
+
+import {
+  CategoriesWrapper,
+  HeaderDescription,
+  HeaderUl,
+  HeaderWrapper,
+  SearchImage,
+  SubscribeWrapper,
+} from './components';
 
 export const Header = () => {
   return (
-    <HeaderWrapper>
-      <div>
-        <ul>
-          <li>Categories</li>
-          <li>Authors</li>
-          <li>Template</li>
-        </ul>
-      </div>
-      <div>
-        <div>iconImage</div>
-        <button>Subscribe</button>
-      </div>
-    </HeaderWrapper>
+    <header>
+      <HeaderDescription>
+        Discover how you can scale your data with TechCues
+        <a href="#123">Learn more</a>
+      </HeaderDescription>
+      <HeaderWrapper>
+        <CategoriesWrapper>
+          <img src={logo} alt="logoImage" />
+          <HeaderUl>
+            <li>Categories</li>
+            <li>Authors</li>
+            <li>Template</li>
+          </HeaderUl>
+        </CategoriesWrapper>
+
+        <SubscribeWrapper>
+          <SearchImage />
+          <Button>Subscribe</Button>
+        </SubscribeWrapper>
+      </HeaderWrapper>
+    </header>
   );
 };
