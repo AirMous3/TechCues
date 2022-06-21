@@ -1,19 +1,22 @@
 import caseStudies from '@/assets/caseStudies.png';
+import arrows from '@/assets/topRightArrows.png';
 import { AuthorAndDescription } from '@/components/AuthorAndDescription';
 import { ViewAll } from '@/components/ViewAll';
 
 import {
   CaseStudiesAuthor,
+  CaseStudiesContainer,
   CaseStudiesDescription,
   CaseStudiesImageWrapper,
   CaseStudiesWrapper,
+  CasesStudiesArrows,
   CasesWrapper,
 } from './components';
 import { cases } from './config';
 
 export const CaseStudies = () => {
   return (
-    <div>
+    <CaseStudiesContainer>
       <ViewAll Title={'Case Studies'} />
       <CaseStudiesWrapper>
         <CaseStudiesImageWrapper>
@@ -29,6 +32,7 @@ export const CaseStudies = () => {
           ))}
         </CasesWrapper>
       </CaseStudiesWrapper>
-    </div>
+      <CasesStudiesArrows src={arrows} />
+    </CaseStudiesContainer>
   );
 };

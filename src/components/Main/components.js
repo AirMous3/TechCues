@@ -17,6 +17,7 @@ export const MainSection = styled.section`
   justify-content: center;
   padding-left: 100px;
   z-index: 10;
+  background: ${({ theme }) => theme.colors.white};
 `;
 export const MainTitle = styled.h1`
   color: ${({ theme }) => theme.colors.secondary};
@@ -59,7 +60,7 @@ export const MainRightArrows = styled.img`
 `;
 export const MainLeftArrows = styled.img`
   left: -50px;
-  top: 255px;
+  top: 280px;
   z-index: 1;
   position: absolute;
   pointer-events: none;

@@ -6,6 +6,7 @@ import {
   MainDate,
   MainDescription,
   MainImage,
+  MainLeftArrows,
   MainRightArrows,
   MainSection,
   MainTitle,
@@ -24,6 +25,7 @@ export const Main = () => {
         <MainDate>February 12, 2021</MainDate>
       </MainSection>
       <MainRightArrows src={rightArrows} />
+      <MainLeftArrows src={rightArrows} />
       <MainImage src={mainImage} alt="mainImage" />
     </StyledMain>
   );
