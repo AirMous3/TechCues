@@ -1,10 +1,12 @@
 import mainImage from '@/assets/mainImage.png';
+import rightArrows from '@/assets/topRightArrows.png';
 
 import {
   MainAuthor,
   MainDate,
   MainDescription,
-  MainInmage,
+  MainImage,
+  MainRightArrows,
   MainSection,
   MainTitle,
   StyledMain,
@@ -21,7 +23,8 @@ export const Main = () => {
         <MainAuthor>Milford Smith</MainAuthor>
         <MainDate>February 12, 2021</MainDate>
       </MainSection>
-      <MainInmage src={mainImage} alt="mainImage" />
+      <MainRightArrows src={rightArrows} />
+      <MainImage src={mainImage} alt="mainImage" />
     </StyledMain>
   );
 };

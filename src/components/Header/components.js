@@ -17,10 +17,10 @@ export const HeaderWrapper = styled.div`
 export const CategoriesWrapper = styled.div`
   display: flex;
 
-
   li {
     margin-left: 25px;
     list-style-type: none;
+    cursor: pointer;
 
     ::after {
       content: url(${arrow});

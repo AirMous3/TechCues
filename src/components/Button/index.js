@@ -12,4 +12,5 @@ export const Button = styled.button`
   color: #ffffff;
   border: none;
   height: 44px;
+  cursor: pointer;
 `;

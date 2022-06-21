@@ -17,6 +17,8 @@ export const ArticlesTitleWrapper = styled.div`
   border-bottom: 1px solid ${({ theme }) => theme.colors.border};
 `;
 export const ArticlesViewAll = styled.div`
+  cursor: pointer;
+
   ::after {
     content: url(${arrow});
     margin-left: 10px;
@@ -25,11 +27,4 @@ export const ArticlesViewAll = styled.div`
 export const ArticlesWrapper = styled.div`
   display: flex;
   justify-content: space-between;
-`;
-export const ArticlesDiv = styled.div`
-  position: absolute;
-  bottom: 422px;
-  width: 150px;
-  border-top: 5px solid ${({ theme }) => theme.colors.primary};
-  border-radius: 8px;
 `;

@@ -8,6 +8,7 @@ export const ArticleWrapper = styled.div`
 `;
 export const ArticleImage = styled.img`
   margin-bottom: 30px;
+  cursor: pointer;
 `;
 export const ArticleTitle = styled.div`
   font-size: 14px;

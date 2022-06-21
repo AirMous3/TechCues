@@ -1,7 +1,5 @@
 import styled from 'styled-components';
 
-import rightArrows from '@/assets/topRightArrows.png';
-
 export const StyledMain = styled.main`
   display: flex;
   justify-content: space-between;
@@ -11,12 +9,14 @@ export const StyledMain = styled.main`
   border-radius: 8px;
   margin-bottom: 120px;
   min-height: 600px;
+  z-index: 10;
 `;
 export const MainSection = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding-left: 100px;
+  z-index: 10;
 `;
 export const MainTitle = styled.h1`
   color: ${({ theme }) => theme.colors.secondary};
@@ -47,16 +47,20 @@ export const MainDate = styled.div`
   line-height: 20px;
   color: ${({ theme }) => theme.colors.whiteGray};
 `;
-export const MainInmage = styled.img`
+export const MainImage = styled.img`
   z-index: 10;
 `;
-// export const MainRightArrows = styled.div`
-//   z-index: 1;
-//   position: absolute;
-//   height: 392px;
-//   left: 73.23%;
-//   right: -4.31%;
-//   top: -48px;
-//   background-image: url(${rightArrows});
-//   background-repeat: no-repeat;
-// `;
+export const MainRightArrows = styled.img`
+  z-index: 1;
+  position: absolute;
+  right: -7%;
+  top: -48px;
+  pointer-events: none;
+`;
+export const MainLeftArrows = styled.img`
+  left: -50px;
+  top: 255px;
+  z-index: 1;
+  position: absolute;
+  pointer-events: none;
+`;
