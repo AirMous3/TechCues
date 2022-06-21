@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/TechCues/static/css/main.3af3ecbf.css",
-    "main.js": "/TechCues/static/js/main.1a888c87.js",
+    "main.js": "/TechCues/static/js/main.3997500e.js",
     "static/media/mainImage.png": "/TechCues/static/media/mainImage.16fa063ca814305ba981.png",
     "static/media/article1.png": "/TechCues/static/media/article1.bd6c08fe9324c296d929.png",
     "static/media/article2.png": "/TechCues/static/media/article2.daf2963ea40339370ea9.png",
+    "static/media/caseStudies.png": "/TechCues/static/media/caseStudies.db46ae33eab1668e75e7.png",
     "static/media/article3.png": "/TechCues/static/media/article3.8824b58c70d812149536.png",
     "index.html": "/TechCues/index.html",
     "static/media/searchImage.svg": "/TechCues/static/media/searchImage.db10f6c5681a4807bdc9be4f2c9563c1.svg",
     "static/media/arrow.svg": "/TechCues/static/media/arrow.64b7b4fe3a17b13f89d92a234d985c81.svg",
     "static/media/Vector.svg": "/TechCues/static/media/Vector.4bc86ef193a4cce769341325f06a8505.svg",
     "main.3af3ecbf.css.map": "/TechCues/static/css/main.3af3ecbf.css.map",
-    "main.1a888c87.js.map": "/TechCues/static/js/main.1a888c87.js.map"
+    "main.3997500e.js.map": "/TechCues/static/js/main.3997500e.js.map"
   },
   "entrypoints": [
     "static/css/main.3af3ecbf.css",
-    "static/js/main.1a888c87.js"
+    "static/js/main.3997500e.js"
   ]
 }
