@@ -1,21 +1,25 @@
 {
   "files": {
-    "main.css": "/TechCues/static/css/main.3af3ecbf.css",
-    "main.js": "/TechCues/static/js/main.19e60a1e.js",
+    "main.css": "/TechCues/static/css/main.42d93fb9.css",
+    "main.js": "/TechCues/static/js/main.ed499728.js",
     "static/media/mainImage.png": "/TechCues/static/media/mainImage.16fa063ca814305ba981.png",
     "static/media/article1.png": "/TechCues/static/media/article1.bd6c08fe9324c296d929.png",
     "static/media/article2.png": "/TechCues/static/media/article2.daf2963ea40339370ea9.png",
     "static/media/caseStudies.png": "/TechCues/static/media/caseStudies.db46ae33eab1668e75e7.png",
     "static/media/article3.png": "/TechCues/static/media/article3.8824b58c70d812149536.png",
+    "static/media/slackIcon.svg": "/TechCues/static/media/slackIcon.fe4cfe1eb0ab23d610b3e3b0b423005d.svg",
+    "static/media/instagramIcon.svg": "/TechCues/static/media/instagramIcon.016b4291603bfed69bd1b41e46676072.svg",
+    "static/media/twitterIcon.svg": "/TechCues/static/media/twitterIcon.95961ac96839c38cc3016fe3b8155793.svg",
     "index.html": "/TechCues/index.html",
     "static/media/searchImage.svg": "/TechCues/static/media/searchImage.db10f6c5681a4807bdc9be4f2c9563c1.svg",
+    "static/media/facebookIcon.svg": "/TechCues/static/media/facebookIcon.6ba62c44865c4391a52725db30133b21.svg",
     "static/media/arrow.svg": "/TechCues/static/media/arrow.64b7b4fe3a17b13f89d92a234d985c81.svg",
     "static/media/Vector.svg": "/TechCues/static/media/Vector.4bc86ef193a4cce769341325f06a8505.svg",
-    "main.3af3ecbf.css.map": "/TechCues/static/css/main.3af3ecbf.css.map",
-    "main.19e60a1e.js.map": "/TechCues/static/js/main.19e60a1e.js.map"
+    "main.42d93fb9.css.map": "/TechCues/static/css/main.42d93fb9.css.map",
+    "main.ed499728.js.map": "/TechCues/static/js/main.ed499728.js.map"
   },
   "entrypoints": [
-    "static/css/main.3af3ecbf.css",
-    "static/js/main.19e60a1e.js"
+    "static/css/main.42d93fb9.css",
+    "static/js/main.ed499728.js"
   ]
 }
