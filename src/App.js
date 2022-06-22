@@ -4,6 +4,7 @@ import { Container } from '@/components/Container';
 import { GetStartedForm } from '@/components/GetStartedForm';
 import { Header } from '@/components/Header';
 import { Main } from '@/components/Main';
+import { TechnologyAndData } from '@/components/TechnologyAndData';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Articles />
         <GetStartedForm />
         <CaseStudies />
+        <TechnologyAndData />
       </Container>
     </div>
   );

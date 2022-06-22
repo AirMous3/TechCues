@@ -10,4 +10,5 @@ export const Description = styled.div`
   line-height: 30px;
   color: ${({ theme }) => theme.colors.primary};
   max-width: 450px;
+  cursor: pointer;
 `;

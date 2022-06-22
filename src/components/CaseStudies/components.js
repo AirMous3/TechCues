@@ -30,9 +30,11 @@ export const CaseStudiesDescription = styled.div`
 export const CasesWrapper = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
   gap: 35px;
   width: 100%;
-  margin-left: 200px;
+  margin-left: 150px;
 `;
 export const CasesStudiesArrows = styled.img`
   position: absolute;
