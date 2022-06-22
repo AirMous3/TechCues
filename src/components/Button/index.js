@@ -13,4 +13,8 @@ export const Button = styled.button`
   border: none;
   height: 44px;
   cursor: pointer;
+
+  :active {
+    transform: scale(0.95);
+  }
 `;

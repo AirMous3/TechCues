@@ -1,7 +1,16 @@
+import rocket from '@/assets/rocket.png';
 import { AuthorAndDescription } from '@/components/AuthorAndDescription';
 import { ViewAll } from '@/components/ViewAll';
 
-import { TechnologyAndDataContainer, TechnologyContainer } from './components';
+import {
+  RocketImage,
+  SmallSubscribeButton,
+  SmallSubscribeContainer,
+  SmallSubscribeDescription,
+  SmallSubscribeInput,
+  TechnologyAndDataContainer,
+  TechnologyContainer,
+} from './components';
 import { dataInsights, mobileTechnology } from './config';
 
 export const TechnologyAndData = () => {
@@ -13,7 +22,17 @@ export const TechnologyAndData = () => {
           <AuthorAndDescription author={author} description={description} key={index} />
         ))}
       </TechnologyContainer>
-      <div>2</div>
+
+      <SmallSubscribeContainer>
+        <RocketImage src={rocket} />
+        <div>Heading</div>
+        <SmallSubscribeDescription>
+          Quality tech news. In your inbox. Every week.
+        </SmallSubscribeDescription>
+        <SmallSubscribeInput placeholder={'Email'} />
+        <SmallSubscribeButton>subscribe</SmallSubscribeButton>
+      </SmallSubscribeContainer>
+
       <TechnologyContainer>
         <ViewAll Title={'Data Insights'} />
         {dataInsights.map(({ description, author }, index) => (
