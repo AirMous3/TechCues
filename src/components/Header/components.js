@@ -30,6 +30,7 @@ export const CategoriesWrapper = styled.div`
 `;
 export const HeaderUl = styled.ul`
   display: flex;
+  align-items: center;
 `;
 export const HeaderDescription = styled.div`
   display: flex;

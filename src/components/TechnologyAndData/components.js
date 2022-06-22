@@ -5,7 +5,7 @@ import { FormInput } from '@/components/GetStartedForm/components';
 
 export const TechnologyAndDataContainer = styled.div`
   margin-top: 130px;
-  margin-bottom: 250px;
+  margin-bottom: 200px;
   display: flex;
   justify-content: space-between;
 `;

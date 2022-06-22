@@ -1,6 +1,7 @@
 import { Articles } from '@/components/Articles';
 import { CaseStudies } from '@/components/CaseStudies';
 import { Container } from '@/components/Container';
+import { Footer } from '@/components/Footer';
 import { GetStartedForm } from '@/components/GetStartedForm';
 import { Header } from '@/components/Header';
 import { Main } from '@/components/Main';
@@ -17,6 +18,7 @@ function App() {
         <CaseStudies />
         <TechnologyAndData />
       </Container>
+      <Footer />
     </div>
   );
 }
