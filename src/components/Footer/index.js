@@ -5,8 +5,10 @@ import slackLogo from '@/assets/slackIcon.svg';
 import twitterLogo from '@/assets/twitterIcon.svg';
 
 import {
-  CategoriesTitle,
+  CategoriesTitle, FooterButton,
+  FooterInput,
   FooterLi,
+  FooterSubscribeWrapper,
   Logo,
   LogosContainer,
   LogosWrapper,
@@ -52,7 +54,12 @@ export const Footer = () => {
         </ul>
       </div>
 
-      <div>4</div>
+      <FooterSubscribeWrapper>
+        <div>Quality tech news</div>
+        <div>In your inbox. Every week.</div>
+        <FooterInput placeholder="Email" />
+        <FooterButton>Subscribe</FooterButton>
+      </FooterSubscribeWrapper>
     </StyledFooter>
   );
 };
